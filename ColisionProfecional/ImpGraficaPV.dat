@@ -1,0 +1,12 @@
+ set size square
+ set origin 0,0
+ set xzeroaxis
+ set yzeroaxis
+ set logscale y 10
+ set xrange [0 :   13.000000000000000      ]
+ set yrange [0 :   2950.4594594594596      ]
+ set title "P vs V"
+ set xlabel "Radio (V)"
+ set ylabel "Colisiones (P)"
+ plot 'GraficaPV.dat' w p lw 2 lc 1
+ replot 'GraficaPV.dat' notitle w yerrorbars

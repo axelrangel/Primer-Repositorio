@@ -1,0 +1,63 @@
+ set size square
+ set origin 0,0
+ set xzeroaxis
+ set yzeroaxis
+ set zzeroaxis
+ set xrange [         -11 :          11 ]
+ set yrange [         -11 :          11 ]
+ set zrange [         -11 :          11 ]
+ set title "Partículas"
+ set xlabel "x"
+ set ylabel "y"
+ set zlabel "z"
+ splot '1.dat' notitle w d lw 3 lc 1
+ replot '2.dat'                                                                notitle w d lw 3 lc           2
+ replot '3.dat'                                                                notitle w d lw 3 lc           3
+ replot '4.dat'                                                                notitle w d lw 3 lc           4
+ replot '5.dat'                                                                notitle w d lw 3 lc           5
+ replot '6.dat'                                                                notitle w d lw 3 lc           6
+ replot '7.dat'                                                                notitle w d lw 3 lc           7
+ replot '8.dat'                                                                notitle w d lw 3 lc           8
+ replot '9.dat'                                                                notitle w d lw 3 lc           9
+ replot '10.dat'                                                               notitle w d lw 3 lc          10
+ replot '11.dat'                                                               notitle w d lw 3 lc          11
+ replot '12.dat'                                                               notitle w d lw 3 lc          12
+ replot '13.dat'                                                               notitle w d lw 3 lc          13
+ replot '14.dat'                                                               notitle w d lw 3 lc          14
+ replot '15.dat'                                                               notitle w d lw 3 lc          15
+ replot '16.dat'                                                               notitle w d lw 3 lc          16
+ replot '17.dat'                                                               notitle w d lw 3 lc          17
+ replot '18.dat'                                                               notitle w d lw 3 lc          18
+ replot '19.dat'                                                               notitle w d lw 3 lc          19
+ replot '20.dat'                                                               notitle w d lw 3 lc          20
+ replot '21.dat'                                                               notitle w d lw 3 lc          21
+ replot '22.dat'                                                               notitle w d lw 3 lc          22
+ replot '23.dat'                                                               notitle w d lw 3 lc          23
+ replot '24.dat'                                                               notitle w d lw 3 lc          24
+ replot '25.dat'                                                               notitle w d lw 3 lc          25
+ replot '26.dat'                                                               notitle w d lw 3 lc          26
+ replot '27.dat'                                                               notitle w d lw 3 lc          27
+ replot '28.dat'                                                               notitle w d lw 3 lc          28
+ replot '29.dat'                                                               notitle w d lw 3 lc          29
+ replot '30.dat'                                                               notitle w d lw 3 lc          30
+ replot '31.dat'                                                               notitle w d lw 3 lc          31
+ replot '32.dat'                                                               notitle w d lw 3 lc          32
+ replot '33.dat'                                                               notitle w d lw 3 lc          33
+ replot '34.dat'                                                               notitle w d lw 3 lc          34
+ replot '35.dat'                                                               notitle w d lw 3 lc          35
+ replot '36.dat'                                                               notitle w d lw 3 lc          36
+ replot '37.dat'                                                               notitle w d lw 3 lc          37
+ replot '38.dat'                                                               notitle w d lw 3 lc          38
+ replot '39.dat'                                                               notitle w d lw 3 lc          39
+ replot '40.dat'                                                               notitle w d lw 3 lc          40
+ replot '41.dat'                                                               notitle w d lw 3 lc          41
+ replot '42.dat'                                                               notitle w d lw 3 lc          42
+ replot '43.dat'                                                               notitle w d lw 3 lc          43
+ replot '44.dat'                                                               notitle w d lw 3 lc          44
+ replot '45.dat'                                                               notitle w d lw 3 lc          45
+ replot '46.dat'                                                               notitle w d lw 3 lc          46
+ replot '47.dat'                                                               notitle w d lw 3 lc          47
+ replot '48.dat'                                                               notitle w d lw 3 lc          48
+ replot '49.dat'                                                               notitle w d lw 3 lc          49
+ replot '50.dat'                                                               notitle w d lw 3 lc          50
+ replot 'Colisiones.dat' w p lw 3 lc 8
