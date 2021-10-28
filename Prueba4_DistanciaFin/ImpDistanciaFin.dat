@@ -1,0 +1,15 @@
+ set size square
+ set origin 0,0
+ set xzeroaxis
+ set yzeroaxis
+ set logscale x 10
+ unset logscale 
+ set xrange [         100 :      100000 ]
+ set yrange [           0 :         326 ]
+ set title "DistanciaFin"
+ set xlabel "x"
+ set ylabel "y"
+ plot 'DistanciaFin.dat' notitle w yerrorbars
+ replot 'DistanciaFin.dat' w d lw 3 lc 3
+
+ 
